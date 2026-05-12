@@ -1,0 +1,7 @@
+﻿[Environment]
+Name=Development
+Debug=true
+LogLevel=DEBUG
+Database_Host=localhost
+Database_Port=5432
+MaxConnections=10

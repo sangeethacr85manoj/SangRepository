@@ -1,0 +1,7 @@
+﻿[Environment]
+Name=Production
+Debug=false
+LogLevel=ERROR
+Database_Host=prod-db.example.com
+Database_Port=5432
+MaxConnections=100

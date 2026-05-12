@@ -1,0 +1,15 @@
+﻿{
+  "version": "0.2.1",
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "TelemetryProcessingApp.exe",
+      "name": "TelemetryProcessingApp",
+      "args": [],
+      "env": {
+        "TELEMETRY_CONFIG_PATH": "${workspaceFolder}/config"
+      }
+    }
+  ]
+}

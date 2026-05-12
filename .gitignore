@@ -1,0 +1,55 @@
+﻿# Build artifacts
+build/
+bin/
+lib/
+dist/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.ncb
+*.ipch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Dependencies
+third_party/*/!cmake
+vcpkg_installed/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Testing
+test_results/
+coverage/
